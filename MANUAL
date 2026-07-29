@@ -1,3 +1,24 @@
+## 📐 Hardware Components & Enclosure Design / Komponenty i Budowa Obudowy
+
+### 📺 Display Specification / Specyfikacja wyświetlacza
+The project uses a high-contrast, energy-efficient e-paper display:
+*Projekt wykorzystuje kontrastowy i energooszczędny wyświetlacz e-papierowy:*
+* **Model:** Luckfox 2.13" E-Paper Display with PCB V4 (Waveshare driver compatible, 212x104 pixels).
+  *(Model: Wyświetlacz E-Paper Luckfox 2,13 cala z płytką PCB V4, kompatybilny z Waveshare, rozdzielczość 212x104 pikseli).*
+
+### 🛠 Enclosure & 3D Printing Details / Detale obudowy i druku 3D
+The device features a custom, minimalist 3D-printed enclosure designed for both aesthetics and functionality.
+*Urządzenie posiada minimalistyczną obudowę z druku 3D, zaprojektowaną z myślą o estetyce i funkcjonalności.*
+
+* **Enclosure Design:** A sleek, circular body with an integrated desk stand that keeps the clock stable. The front features a dedicated cutout tailored for the 2.13" e-paper screen.
+  *(Design obudowy: Elegancki, okrągły korpus ze zintegrowaną podstawką biurkową zapewniającą stabilność. Front posiada dedykowane wycięcie idealnie dopasowane do ekranu e-papierowego).*
+* **Frame Overlays (Nakładki maskujące):** To solve the visual imperfections of 3D printing on the upper and lower curved edges of the display frame (where overhangs can look rough), custom printed overlays were added. They perfectly mask the raw print structure, giving the front a perfectly smooth, professional finish.
+  *(Nakładki na ramkę: Aby wyeliminować niedoskonałości druku 3D na łukach (górna i dolna krawędź ramki wyświetlacza, gdzie nawisy mogą wyglądać chropowato), dodano dedykowane nakładki maskujące. Znakomicie ukrywają one surową strukturę druku, nadając frontowi gładkie, profesjonalne wykończenie).*
+* **Magnetic Back Cover (Dekiel):** The back cover features a toolless magnetic mounting system using **neodymium magnets (5mm diameter x 3mm height)**. This allows you to easily snap the back cover on and off without any screws when accessing the hardware or buttons.
+  *(Magnetyczny dekiel: Tylna klapka (dekiel) wykorzystuje beznarzędziowy montaż na **magnesy neodymowe o wymiarach 5x3 mm**. Dzięki temu dostęp do wnętrza i przycisków nie wymaga śrub – dekiel po prostu zatrzaskuje się na miejscu).*
+
+---
+
 ## ⏰ Alarm Settings Instruction / Instrukcja nastawy budzika
 
 The device allows you to easily set an alarm using the physical buttons or turn it off with a hand gesture.
@@ -23,7 +44,7 @@ The device allows you to easily set an alarm using the physical buttons or turn 
 
 ---
 
-### 🤫 Deactivating the Alarm & Backlight / Wyłączanie alarmu i podświetlenia
+###  Deactivating the Alarm & Backlight / Wyłączanie alarmu i podświetlenia
 
 * **Gesture Control (ToF Sensor):** When the alarm goes off, simply hold your hand close to the VL53L0X distance sensor (**between 4.5 cm and 11 cm**) to completely turn off the active alarm and clear the icon. In normal mode, this gesture toggles the blue backlight on/off.
   *(Sterowanie gestem: Gdy alarm dzwoni, zbliż dłoń do czujnika odległości na odległość **od 4.5 cm do 11 cm**, aby wyłączyć alarm. W trybie czuwania ten gest włącza/wyłącza podświetlenie).*
